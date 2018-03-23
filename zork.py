@@ -2,6 +2,12 @@ from random import randint
 import observer
 #random class taken from example: https://pythonspot.com/random-numbers/
 #"multidemnsional array" from https://stackoverflow.com/questions/6667201/how-to-define-a-two-dimensional-array-in-python
+###########################
+#This file controls all of the zork based game except certain parts of the
+#observer class implementation
+#@author Brendan Dent
+#@version 3/23/18
+###########################
 #this class controls the game
 class game:
 	def __init__(self):
